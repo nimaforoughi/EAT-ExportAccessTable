@@ -1,7 +1,7 @@
 # EAT-ExportAccessTable
 EAT - Export Access Table diagram writeup
 
-![image](https://user-images.githubusercontent.com/90676852/173491921-4de70cd9-2525-40c7-a168-328b33d1d0f5.png)
+![image](https://user-images.githubusercontent.com/90676852/173491921-4de70cd9-2525-40c7-a168-328b33d1d0f5.png | width=100 )
 
 ## install python2.7
     sudo apt-get update 
