@@ -23,7 +23,7 @@ lmf
 ## How to parse the EAT:
 
 dc 774e0000+110340
-![EAT 2](https://user-images.githubusercontent.com/90676852/174516198-99d8ec8e-1fe5-4cab-823f-18da3d549a79.png)
+![EAT2](https://user-images.githubusercontent.com/90676852/174516198-99d8ec8e-1fe5-4cab-823f-18da3d549a79.png)
 
 	typedefstruct_IMAGE_EXPORT_DIRECTORY{
 		1-DWORDCharacteristics;
@@ -65,7 +65,7 @@ The full explanation is presented by Alice Climent Pommeret in <https://alice.cl
 
 ## The Diagram of EAT for ntdll32.dll
 ![EAT3](https://github.com/nimaforoughi/EAT-ExportAddressTable/blob/gh-pages/Images/EAT.png?raw=true)
-![EAT](https://user-images.githubusercontent.com/90676852/174523973-1eb615d3-c549-479b-9f84-00905c85b94b.png)
+
 
 
 Reference:
