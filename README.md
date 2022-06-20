@@ -1,6 +1,11 @@
 # EAT-ExportAddressTable
 EAT - Export Address Table diagram with the use of WinDBG
 
+Steps as follow:
+
+1. Retrive the DLL Base address by **lmf**
+2. Retreive the Export Directory address by **!dh**
+3. Parse the EAT
 
 ## How to retreive the DLL base address:
 
@@ -58,7 +63,7 @@ The full explanation is presented by Alice Climent Pommeret in <https://alice.cl
 ![EAT](https://user-images.githubusercontent.com/90676852/174515889-50d40d49-1b22-49ef-938b-6ea4b72a594d.png)
 
 ## The Diagram of EAT for ntdll32.dll
-![image](https://github.com/nimaforoughi/EAT-ExportAddressTable/blob/main/Images/EAT.drawio%20(1).png)
+![image of EAT](https://github.com/nimaforoughi/EAT-ExportAddressTable/blob/main/Images/EAT%20-%20Export%20Address%20Table.png)
 
 
 Reference:
