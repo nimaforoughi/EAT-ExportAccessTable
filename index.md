@@ -67,7 +67,7 @@ As Alice said:
 The full article is presented by Alice Climent Pommeret in <https://alice.climent-pommeret.red/posts/direct-syscalls-hells-halos-syswhispers2/#retrieving-windows-dll-addresses-the-process-environment-block-peb>
 
 ## The Diagram of EAT for ntdll32.dll
-![EAT3](https://github.com/nimaforoughi/EAT-ExportAddressTable/blob/gh-pages/Images/EAT.png?raw=true)
+![EXPORT ADDRESS TABLE](https://github.com/nimaforoughi/EAT-ExportAddressTable/blob/gh-pages/Images/EAT.png?raw=true)
 
 
 
