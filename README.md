@@ -3,8 +3,8 @@ EAT - Export Address Table diagram with the use of WinDBG
 
 Steps as follow:
 
-1. Retrive the DLL Base address by **lmf**
-2. Retreive the Export Directory address by **!dh**
+1. Retrieve the DLL Base address by **lmf**
+2. Retrieve the Export Directory address by **!dh**
 3. Parse the EAT
 
 ## How to retreive the DLL base address:
