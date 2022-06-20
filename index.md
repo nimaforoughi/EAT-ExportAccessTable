@@ -12,6 +12,7 @@ Steps as follow:
 ### WinDBG tool:
 lmf
 <img src="https://github.com/nimaforoughi/EAT-ExportAddressTable/blob/main/Images/EAT-Export%20Table%20Address%200.png" width="1000">
+
 ![EAT-Export Table Address 0](https://user-images.githubusercontent.com/90676852/174523908-08b571ce-552c-4f7b-bfbd-31eeca43627e.png)
 
 ## How to retreive the Export Directory address:
@@ -19,6 +20,7 @@ lmf
 !dh
 
 <img src="https://github.com/nimaforoughi/EAT-ExportAddressTable/blob/main/Images/EAT-Export%20Table%20Address%201.png" width="400">
+
 ![EAT-Export Table Address 0](https://user-images.githubusercontent.com/90676852/174523951-0ff82d69-d16d-4878-85a9-0b8f975073ff.png)
 
 
