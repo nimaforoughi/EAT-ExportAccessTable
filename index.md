@@ -23,7 +23,7 @@ lmf
 ## How to parse the EAT:
 
 dc 774e0000+110340
-![EAT](https://user-images.githubusercontent.com/90676852/174516198-99d8ec8e-1fe5-4cab-823f-18da3d549a79.png)
+![EAT 2](https://user-images.githubusercontent.com/90676852/174516198-99d8ec8e-1fe5-4cab-823f-18da3d549a79.png)
 
 	typedefstruct_IMAGE_EXPORT_DIRECTORY{
 		1-DWORDCharacteristics;
