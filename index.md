@@ -18,8 +18,7 @@ lmf
 
 !dh
 
-![EAT-Export2](https://user-images.githubusercontent.com/90676852/174523951-0ff82d69-d16d-4878-85a9-0b8f975073ff.png)
-
+![EAT-ExportTableAddress](https://user-images.githubusercontent.com/90676852/174524307-24297a65-4996-47fc-8d6a-3095fbb76d96.png)
 
 ## How to parse the EAT:
 
