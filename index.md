@@ -12,13 +12,13 @@ Steps as follow:
 ### WinDBG tool:
 lmf
 
-![EAT-Export Table Address 0](https://user-images.githubusercontent.com/90676852/174523908-08b571ce-552c-4f7b-bfbd-31eeca43627e.png)
+![EAT-Export](https://user-images.githubusercontent.com/90676852/174523908-08b571ce-552c-4f7b-bfbd-31eeca43627e.png)
 
 ## How to retreive the Export Directory address:
 
 !dh
 
-![EAT-Export Table Address 0](https://user-images.githubusercontent.com/90676852/174523951-0ff82d69-d16d-4878-85a9-0b8f975073ff.png)
+![EAT-Export2](https://user-images.githubusercontent.com/90676852/174523951-0ff82d69-d16d-4878-85a9-0b8f975073ff.png)
 
 
 ## How to parse the EAT:
