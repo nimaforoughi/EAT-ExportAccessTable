@@ -63,7 +63,7 @@ The full explanation is presented by Alice Climent Pommeret in <https://alice.cl
 ![EAT2](https://user-images.githubusercontent.com/90676852/174515889-50d40d49-1b22-49ef-938b-6ea4b72a594d.png)
 
 ## The Diagram of EAT for ntdll32.dll
-![EAT3]("https://github.com/nimaforoughi/EAT-ExportAddressTable/blob/gh-pages/Images/EAT%20-%20Export%20Address%20Table.png")
+![EAT3](https://github.com/nimaforoughi/EAT-ExportAddressTable/blob/main/Images/EAT.png)
 
 
 Reference:
