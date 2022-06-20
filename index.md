@@ -45,7 +45,6 @@ From <https://alice.climent-pommeret.red/posts/direct-syscalls-hells-halos-syswh
 
 ![EAT2](https://user-images.githubusercontent.com/90676852/174515889-50d40d49-1b22-49ef-938b-6ea4b72a594d.png)
 
-## The Diagram of EAT for ntdll32.dll
 As Alice said:
 
 > 3 fields are super important for us: AddressOfFunctions, AddressOfNames and AddressOfNameOrdinals
@@ -61,9 +60,10 @@ As Alice said:
 	Then to retrieve the ordinal: AddressOfNameOrdinals[0]. 
 	The value of AddressOfNameOrdinals[0] is 7.
 	To retrieve A_SHAFinal function address we do AddressOfFunctions[7].
-
+	
 The full article is presented by Alice Climent Pommeret in <https://alice.climent-pommeret.red/posts/direct-syscalls-hells-halos-syswhispers2/#retrieving-windows-dll-addresses-the-process-environment-block-peb>
 
+## The Diagram of EAT for ntdll32.dll
 ![EAT3](https://github.com/nimaforoughi/EAT-ExportAddressTable/blob/gh-pages/Images/EAT.png?raw=true)
 
 
