@@ -74,7 +74,8 @@ The full article is presented by Alice Climent Pommeret in <https://alice.climen
 
 
 
-Reference:
+References:
 
 <https://alice.climent-pommeret.red/posts/direct-syscalls-hells-halos-syswhispers2/#retrieving-windows-dll-addresses-the-process-environment-block-peb>
+
 <https://emsea.github.io/2017/12/04/import-by-hash/>
