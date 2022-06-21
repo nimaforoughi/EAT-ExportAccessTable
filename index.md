@@ -7,6 +7,10 @@ Steps as follow:
 2. Retreive the Export Directory address by **!dh**
 3. Parse the EAT
 
+## EAT Memory Map of a dll/image
+
+![EAT Memory Map](https://github.com/nimaforoughi/EAT-ExportAddressTable/blob/main/Images/EAT-memorymap.png?raw=true)
+
 ## How to retreive the DLL base address:
 
 ### WinDBG tool:
@@ -73,4 +77,8 @@ The full article is presented by Alice Climent Pommeret in <https://alice.climen
 
 
 Reference:
+
 <https://alice.climent-pommeret.red/posts/direct-syscalls-hells-halos-syswhispers2/#retrieving-windows-dll-addresses-the-process-environment-block-peb>
+<https://emsea.github.io/2017/12/04/import-by-hash/>
+
+
