@@ -3,26 +3,32 @@ EAT - Export Address Table diagram with the use of WinDBG
 
 Steps as follow:
 
-1. Retrieve the DLL Base address by **lmf**
-2. Retrieve the Export Directory address by **!dh**
+1. Retrive the DLL Base address by **lmf**
+2. Retreive the Export Directory address by **!dh**
 3. Parse the EAT
+
+## EAT Memory Map of a dll/image
+
+![EAT Memory Map](https://github.com/nimaforoughi/EAT-ExportAddressTable/blob/main/Images/EAT-memorymap.png?raw=true)
 
 ## How to retreive the DLL base address:
 
 ### WinDBG tool:
 lmf
-<img src="https://github.com/nimaforoughi/EAT-ExportAddressTable/blob/main/Images/EAT-Export%20Table%20Address%200.png" width="1000">
+
+![EAT-Export](https://user-images.githubusercontent.com/90676852/174523908-08b571ce-552c-4f7b-bfbd-31eeca43627e.png)
+
 ## How to retreive the Export Directory address:
 
-!dh
+!dh 774e0000
 
-<img src="https://github.com/nimaforoughi/EAT-ExportAddressTable/blob/main/Images/EAT-Export%20Table%20Address%201.png" width="400">
+<img src="https://user-images.githubusercontent.com/90676852/174524307-24297a65-4996-47fc-8d6a-3095fbb76d96.png" width="400">
 
 
 ## How to parse the EAT:
 
 dc 774e0000+110340
-![EAT](https://user-images.githubusercontent.com/90676852/174516198-99d8ec8e-1fe5-4cab-823f-18da3d549a79.png)
+![EAT2](https://user-images.githubusercontent.com/90676852/174516198-99d8ec8e-1fe5-4cab-823f-18da3d549a79.png)
 
 	typedefstruct_IMAGE_EXPORT_DIRECTORY{
 		1-DWORDCharacteristics;
@@ -41,6 +47,9 @@ dc 774e0000+110340
 
 From <https://alice.climent-pommeret.red/posts/direct-syscalls-hells-halos-syswhispers2/#what-is-a-hook-> .
 
+
+![EAT2](https://user-images.githubusercontent.com/90676852/174515889-50d40d49-1b22-49ef-938b-6ea4b72a594d.png)
+
 As Alice said:
 
 > 3 fields are super important for us: AddressOfFunctions, AddressOfNames and AddressOfNameOrdinals
@@ -56,17 +65,16 @@ As Alice said:
 	Then to retrieve the ordinal: AddressOfNameOrdinals[0]. 
 	The value of AddressOfNameOrdinals[0] is 7.
 	To retrieve A_SHAFinal function address we do AddressOfFunctions[7].
-
-The full explanation is presented by Alice Climent Pommeret in <https://alice.climent-pommeret.red/posts/direct-syscalls-hells-halos-syswhispers2/#retrieving-windows-dll-addresses-the-process-environment-block-peb>
-
-
-![EAT](https://user-images.githubusercontent.com/90676852/174515889-50d40d49-1b22-49ef-938b-6ea4b72a594d.png)
+	
+The full article is presented by Alice Climent Pommeret in <https://alice.climent-pommeret.red/posts/direct-syscalls-hells-halos-syswhispers2/#retrieving-windows-dll-addresses-the-process-environment-block-peb>
 
 ## The Diagram of EAT for ntdll32.dll
-![Export Address Table](https://github.com/nimaforoughi/EAT-ExportAddressTable/blob/main/Images/EAT%20-%20Export%20Address%20Table.png)
+![EXPORT ADDRESS TABLE](https://github.com/nimaforoughi/EAT-ExportAddressTable/blob/gh-pages/Images/EAT.png?raw=true)
+
+
 
 
 Reference:
+
 <https://alice.climent-pommeret.red/posts/direct-syscalls-hells-halos-syswhispers2/#retrieving-windows-dll-addresses-the-process-environment-block-peb>
-
-
+<https://emsea.github.io/2017/12/04/import-by-hash/>
